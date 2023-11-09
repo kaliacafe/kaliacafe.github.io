@@ -2,7 +2,7 @@ import Intro from "@/layouts/Intro";
 
 function Home() {
 	return <>
-		<head>
+		{/* <head>
 			<title>Kalia Cafe</title>
 			<meta charSet="utf-8" />
 			<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -10,9 +10,9 @@ function Home() {
 			<noscript>
 				<link rel="stylesheet" href="assets/css/noscript.css" />
 			</noscript>
-		</head>
+		</head> */}
 
-		<body className="is-preload">
+		<div className="is-preload">
 			{/* <!-- Wrapper --> */}
 			<div id="wrapper" className="fade-in">
 				<Intro />
@@ -261,7 +261,7 @@ function Home() {
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
-		</body>
+		</div>
 	</>
 }
 
