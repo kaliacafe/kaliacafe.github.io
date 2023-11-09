@@ -9,7 +9,7 @@
 
 /* Intro */
 
-#intro {
+.intro {
 	@include color-typography(invert);
 	@include color-button(invert);
 	@include padding(_size(padding) * 4, _size(padding) * 2);
@@ -38,7 +38,7 @@
 		text-align: center;
 	}
 
-	&+#header {
+	&+.header {
 		margin-top: -20rem;
 
 		.logo {
@@ -58,7 +58,7 @@
 		opacity: 0;
 		visibility: hidden;
 
-		&+#header {
+		&+.header {
 			.logo {
 				@include vendor('transform', 'translateY(0)');
 				opacity: 1;
@@ -72,7 +72,7 @@
 		opacity: 0;
 
 		&:not(.hidden) {
-			&+#header+#nav {
+			&+.header+#nav {
 				@include vendor('transform', 'translateY(4rem)');
 				opacity: 0;
 			}
@@ -89,7 +89,7 @@
 			}
 		}
 
-		&+#header {
+		&+.header {
 			margin-top: -14rem;
 		}
 	}
