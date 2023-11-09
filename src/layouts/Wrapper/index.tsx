@@ -4,17 +4,20 @@ import Nav from "@/layouts/Nav";
 import Main from "@/layouts/Main";
 import Footer from "@/layouts/Footer";
 
-import styles from "./styles.modules.scss";
+import styles from "./styles.module.scss";
 import cx from "classnames";
 
-const Wrapper = () => (
-  <div className={cx(styles.wrapper, styles["fade-in"])}>
-    <Intro />
-    <Header />
-    <Nav />
-    <Main />
-    <Footer />
-  </div>
-);
+const Wrapper = () => {
+  console.log(JSON.stringify(styles));
+  return (
+    <div className={cx(styles.wrapper, styles["fade-in"])}>
+      <Intro />
+      <Header />
+      <Nav />
+      <Main />
+      <Footer />
+    </div>
+  );
+};
 
 export default Wrapper;

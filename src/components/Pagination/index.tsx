@@ -1,4 +1,4 @@
-import styles from "./styles.modules.scss";
+import styles from "./styles.module.scss";
 import cx from "classnames";
 
 const Pagination = () => (
