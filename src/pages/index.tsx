@@ -16,12 +16,12 @@ function Home() {
 
       <div className={styles["is-preload"]}>
         <Wrapper />
-
+        {/* 
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/jquery.scrollex.min.js"></script>
         <script src="assets/js/jquery.scrolly.min.js"></script>
         <script src="assets/js/browser.min.js"></script>
-        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script> */}
       </div>
     </>
   );
