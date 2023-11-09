@@ -2,7 +2,7 @@ import styles from "./styles.modules.scss";
 import cx from "classnames";
 
 const Intro = () => (
-  <div id={styles["intro"]}>
+  <div className={styles["intro"]}>
     <h1>Kalia Cafe</h1>
     <h2>Sandwich, Espresso, Internet Cafe</h2>
     <h2>Kihei, Maui, Hawaii</h2>
