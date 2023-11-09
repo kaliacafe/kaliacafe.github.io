@@ -1,7 +1,7 @@
-import Intro from "@/components/Intro";
+import Intro from "@/layouts/Intro";
 
 function Home() {
-  return <>
+	return <>
 		<head>
 			<title>Kalia Cafe</title>
 			<meta charSet="utf-8" />
@@ -11,7 +11,7 @@ function Home() {
 				<link rel="stylesheet" href="assets/css/noscript.css" />
 			</noscript>
 		</head>
-		
+
 		<body className="is-preload">
 			{/* <!-- Wrapper --> */}
 			<div id="wrapper" className="fade-in">
@@ -21,7 +21,7 @@ function Home() {
 				<header id="header">
 					<a href="index.html" className="logo">Kalia Cafe</a>
 				</header>
-		
+
 				{/* <!-- Nav --> */}
 				<nav id="nav">
 					<ul className="links">
@@ -36,7 +36,7 @@ function Home() {
 						</li>
 					</ul>
 				</nav>
-		
+
 				{/* <!-- Main --> */}
 				<div id="main">
 					{/* <!-- Featured Post --> */}
@@ -59,7 +59,7 @@ function Home() {
 							<li><a href="#" className="button large">Full Story</a></li>
 						</ul>
 					</article>
-		
+
 					{/* <!-- Posts --> */}
 					<section className="posts">
 						<article>
@@ -171,7 +171,7 @@ function Home() {
 							</ul>
 						</article>
 					</section>
-		
+
 					{/* <!-- Footer --> */}
 					<footer>
 						<div className="pagination">
@@ -187,7 +187,7 @@ function Home() {
 						</div>
 					</footer>
 				</div>
-		
+
 				{/* <!-- Footer --> */}
 				<footer id="footer">
 					<section>
@@ -246,7 +246,7 @@ function Home() {
 						</section>
 					</section>
 				</footer>
-		
+
 				{/* <!-- Copyright --> */}
 				<div id="copyright">
 					<ul>
@@ -255,14 +255,14 @@ function Home() {
 					</ul>
 				</div>
 			</div>
-		
+
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
-			</body>
-			</>
+		</body>
+	</>
 }
 
 export default Home;

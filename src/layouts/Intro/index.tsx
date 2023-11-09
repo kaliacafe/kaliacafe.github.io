@@ -1,5 +1,5 @@
-import styles from './styles.module.scss';
-import cx from classNames;
+import styles from './styles.modules.scss';
+import cx from 'classnames';
 
 const Intro = () => (
 	<div id={styles["intro"]}>
@@ -13,7 +13,8 @@ const Intro = () => (
 		</p>
 		<ul className={styles["actions"]}>
 			<li>
-				<a href="#header" className={"button icon solid solo fa-arrow-down scrolly">Continue</a>
+				<a href="#header" className={cx(styles.button,
+					styles.icon, styles.solid, styles.solo, styles['fa-arrow-down'], styles.scrolly)}>Continue</a>
 			</li>
 		</ul>
 	</div>
